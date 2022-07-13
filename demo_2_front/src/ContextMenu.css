@@ -1,0 +1,70 @@
+.ContextMenu {
+    position: absolute;
+    background: #ffffff;
+    min-height: 10px;
+    min-width: 200px;
+    border-radius: 10px;
+    border: solid 2px black;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.ContextBackground {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    /*background-color: rgba(0, 0, 0, 0.34);*/
+    /*z-index: 9999;*/
+}
+
+.ContextMenuLabel {
+    flex-grow: 1;
+    min-height: 2em;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: inherit;
+}
+
+
+.ContextMenuLabel p{
+    text-align: center;
+    font-size: 1em;
+}
+
+.ContextMenuInput {
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ContextMenuInput input {
+    flex-grow: 1;
+    border-radius: 5px;
+    min-height: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ContextMenuButton {
+    width: 100%;
+    min-height: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ContextMenuButton button {
+    flex-grow: 1;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 2.5em;
+    font-size: inherit;
+    border: solid 1px black;
+}

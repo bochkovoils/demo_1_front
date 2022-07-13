@@ -1,0 +1,26 @@
+.TodoList {
+    display: flex;
+    flex-direction: column;
+    /*justify-items: start;*/
+    align-items: center;
+    min-width: 50vw;
+    max-width: 50vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    /*overflow-y: scroll;*/
+}
+
+.TodoList .ItemsContainer {
+    margin-bottom: auto;
+    overflow: auto;
+    width: 100%;
+    align-items: center;
+}
+
+
+.TodoList .ItemsContainer .Todos {
+    min-height: min-content;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
