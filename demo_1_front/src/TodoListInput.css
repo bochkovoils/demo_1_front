@@ -1,0 +1,17 @@
+.TodoListInput {
+    flex-grow: 1;
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.TodoListInput input {
+    flex-grow: 1;
+}
+
+.TodoListInput button {
+    margin-left: auto;
+}
