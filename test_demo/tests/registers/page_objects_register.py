@@ -1,0 +1,3 @@
+class PageObjectsRegister:
+    abstractions = []
+    implementations = {}
